@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/CSS/10.style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CSS BOX MODEL</h1>
+    <img src="/images/CSS-MODEL.png" alt="" id="image">
+<div id="set-1"> 
+    <h3>The CSS Box Model
+        In CSS, the term "box model" is used when talking about design and layout.
+        
+        The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:</h3>
+       
+  <ul>
+   <a href="#con"> <li>CONTENT</li> </a>
+   <a href="#pad"> <LI>PADDING</LI>  </a>
+   <a href="#Bor"> <LI>BORDER</LI> </a>
+  <a href="#mar">  <LI>MARGIN </LI> </a>
+  <a href="#out"> <li>OUTLINE</li></a>
+</ul>
+<a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">click here </a>
+</div>
+
+<h2 id="con">CONTENT</h2>
+<p>When you set the width and height properties of an element with CSS, you just set the width and height of the content area. To calculate the full size of an element, you must also add padding, borders and margins.</p>
+
+<div id="set-2">
+<h4>The total width of an element should be calculated like this:
+
+    Total element width = width + left padding + right padding + left border + right border + left margin + right margin
+    
+    The total height of an element should be calculated like this:
+    
+    Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin</h4>
+    
+<h4> 320px (width)  + 20 px (left 
+    + right padding)
+    + 10 px (left + right border)
++ 0 px (left + right margin)
+= 350px</h4> </div>
+<h1>CSS PADDING </h1>
+<div id="set-3"><h2 id="pad">PADDING</h2>
+<p>Padding is used to create space around an element's content, inside of any defined borders.</p>
+<h4>The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+
+    With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).</h4>
+<a href="https://www.w3schools.com/css/css_padding.asp" target="_blank">click for padding properties </a>
+</div>
+
+<h2 id="Bor">BORDER</h2>
+<p>The CSS border properties allow you to specify the style, width, and color of an element's border.</p>
+<h1>INSET BORDER</h1>
+<h3 class="der"> the border here is 70px INSET - Defines a 3D inset border. The effect depends on the border-color value 
+   <a href="https://www.w3schools.com/css/css_border.asp"> click here BORDER properties </a> 
+</h3>
+<H1>GROOVED BORDER</H1>
+<h3 class="grooved"> The border here is 100px grooved- Defines a 3D grooved border. The effect depends on the border-color value</h3>
+<H1> RIDGE BORDER</H1>
+<h3 class="ridge"> the border is 80 px Ridged- Defines a 3D ridged border. The effect depends on the border-color value</h3>
+<H1> OUTSET BORDER</H1>
+<h3 class="outset">The border is 110px Outset-Defines a 3D outset border. The effect depends on the border-color value</h3>
+<h1>Combined four </h1><h3 class="combined">Dotted solid dashed double</h3>
+
+<h3 class="hidden"> The border is hidden </h3>
+
+<h4 class="none"> none- defines no border </h4> 
+<a href="https://www.w3schools.com/css/css_border.asp" target="_blank">
+<img src="/images/CSS-Border.png" id="img" alt=""></a>
+<a href="https://www.w3schools.com/css/css_border_rounded.asp" target="_blank"><h1>click for ALL PROPERTIES </h1></a>
+<h2 id="mar">MARGIN </h2>
+<p>Margins are used to create space around elements, outside of any defined borders.
+</p>
+<div id="set-4">
+    <h4>CSS Margins
+        The CSS margin properties are used to create space around elements, outside of any defined borders.
+        
+        With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).
+        
+        </h4>
+        <h3>All the margin properties can have the following values:
+
+            auto - the browser calculates the margin
+            length - specifies a margin in px, pt, cm, etc.
+            % - specifies a margin in % of the width of the containing element
+            inherit - specifies that the margin should be inherited from the parent element
+            Tip: Negative values are allowed.</h3>
+            <a href="https://www.w3schools.com/css/css_margin.asp" target="_blank">
+            <h1>FOR more MARGIN properties</h1></a>
+
+</div>
+<h1 id="out">OUTLINE</h1>
+<div id="set-5">
+<p>An outline is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out".</p>
+<p>CSS has the following outline properties:
+
+    outline-style
+    outline-color
+    outline-width
+    outline-offset
+    outline</p>
+   <a href="https://www.w3schools.com/css/css_outline.asp" target="_blank"> <img src="/images/CSS-OUTLINE.png" alt=""> </a>
+   <h1> OUTLINE - offset</h1>
+   <a href="https://www.w3schools.com/css/css_outline_offset.asp" target="_blank" ><p>click here for know more about offset </p> 
+</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/3.style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="/images/CSS combinator.png" alt="">
+    <h1>ADVANCED SELECTORS</h1>
+    <p>example for 1st advanced selector</p>
+    <h2>1.adjacent-sibling selector using " +"</h2>
+    <!-- only for next to next line  -->
+    <p>
+      adjacent-sibling selector h2 + p:{color=brown} every 1st P after h2 will
+      be red color
+    </p>
+    <p>this is 2nd P after h2 so color not applied here</p>
+    <p>only for next to next line elements</p>
+    <h2>2.General siblings using "~"</h2>
+    <p>
+      h2 ~ p - every P after h1 will be color red all under PARENT body here
+    </p>
+    <p>2nd p after h2 it also colored red</p>
+    <form>
+      <input type="text" placeholder="full name" />
+      <input type="email" placeholder="email" />
+      <p>this not colored brown because it under PARENT FORM</p>
+      <textarea></textarea>
+      <button>sumbit</button>
+    </form>
+    <p>3rd p after h2 under parent BODY this also colored red</p>
+    <h2>3.CHILD SELECTORS using ">"</h2>
+    <p>"Selects all LI elements where the parent UL is a element</p>
+    <ul>
+      <li>unordered list</li>
+      <ol>
+        <li>my ordered list</li>
+      </ol>
+    </ul>
+    <h2>descendant SELECTORS using element element</h2>
+    <p>selects all td under table parent colored PINK</p>
+    <table border="1">
+      <thead>
+        <tr>
+          <td>NO</td>
+          <td>NAME</td>
+          <td>class</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Sudhar</td>
+          <td>ECE</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>ayyas</td>
+          <td>BIO</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>mimo</td>
+          <td>CSE</td>
+        </tr>
+      </tbody>
+    </table>
+    <a href=""></a>
+    <a href="https://www.w3schools.com/css/css_combinators.asp" target="_blank" >click for all COMBINATOR selectors
+    <img src="/images/combinator selectors.png" alt="">
+    </a>
+  </body>
+</html>
