@@ -1,0 +1,65 @@
+body {
+  background: rgb(0, 0, 0);
+  color: cornsilk;
+}
+input,
+textarea {
+  display: block;
+  margin: 10px;
+}
+#submit-button {
+  margin: 20px 10px;
+  padding: 10px 15px;
+  border: none;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: oldlace;
+  background: rgb(255, 0, 0);
+  /* different transform */
+  transform: translate(50px , 30px);
+  /* transform: scale(1.5); */
+  /* transform: matrix(1, 0.45, 0.45, 1, 100, 50); */
+  /* background: royalblue; */
+  /*  below codes for various search engines*/
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  /* ANIMATION PROPERTIES */
+  animation-name: animation;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 100ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+  /* animation: animation 4s ease-in-out 100ms infinite alternate-reverse; */
+}
+#submit-button:hover {
+  /* background-color: rgb(147,187,255); */
+  background: rgb(224, 135, 135);
+  padding: 20px 30px;
+  color: rgb(17, 17, 17);
+  font-size: 30px;
+  text-decoration: underline;
+  /*  */
+}
+
+@keyframes animation {
+  0% {
+    background: rgb(81, 255, 0);
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    background: yellow;
+    transform: translate(20px, 20px);
+  }
+  100% {
+    background: rgb(255, 0, 0);
+    transform: translate(30px, 30px);
+  }
+}

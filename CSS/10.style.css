@@ -1,0 +1,105 @@
+body {
+  background-color: ivory;
+}
+p {
+  font-size: 0.5cm;
+}
+#image {
+  float: right;
+  height: 300px;
+  width: 500px;
+  /* border: 1em double cornflowerblue; */
+  outline-style: solid;
+  outline-color: blue;
+  outline-width: 1pc;
+  padding: 50px;
+  margin: 20px;
+  /* padding: 1px 2px 2px 1px gold;
+    margin: 1px 2px 2px 1px red; */
+}
+#set-1 {
+  /* float: right; */
+  background-color: rgb(146, 224, 115);
+  font-size: 1.2em;
+  height: 300px;
+  width: 500px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  float: inline-start;
+}
+#set-2 {
+  background-color: gold;
+  width: 1000px;
+  font-size: 20px;
+  border-left: 5px solid black;
+  box-sizing: border-box;
+}
+
+#set-3 {
+  padding: 70px;
+  border: 1px solid #4caf50;
+  box-sizing: border-box;
+}
+
+.der{
+    border: 70px inset red;
+}
+.grooved{
+    border: 100px groove blue;
+}
+.ridge{
+    border: 80px ridge purple;
+}
+.outset{
+    border: 110px outset orange;
+}
+.hidden{
+    border: 200px hidden darkblue;
+}
+.none{
+  border: 100px none red;
+}
+#img{
+  /* float: center; */
+  padding: 30px;
+  outline: red dotted 7px;
+}
+.combined{
+  height: 100px;
+  background-color: deeppink;
+  border-top-style:  dotted;
+  border-right-style:  double;
+  border-left-style: solid;
+  border-bottom-style: dashed  ;
+  border-top-width: 10px;
+  border-top-color: rgb(9, 4, 53);
+  /* border: royalblue; */
+  border-left-width: 50px;
+  border-left-color: darkblue;
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-width: 5px;
+  text-align: center;
+  text-decoration: overline;
+}
+#set-4{
+  /* height: 100px; */
+  margin: 100px;
+  width: 1600px;
+  font-size: 0.6cm;
+  border: 10px solid orangered;
+  outline: 5px solid rgb(0, 255, 55);
+  outline-offset: 15px;
+}
+#set-5{
+  border: 1px solid steelblue;
+  outline-width: thick;
+  outline-color: springgreen;
+  outline-style: double;
+  margin: 10em;
+  text-align: center;
+}
+img{
+  height: 350px;
+  width: 50%;
+}

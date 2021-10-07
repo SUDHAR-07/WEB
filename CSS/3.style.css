@@ -1,0 +1,38 @@
+body{
+    background: url("/images/1500x500.jpg");
+    background-size: contain;
+    background: repeat-5;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-color: rgba(233, 200, 200, 0.349);
+}
+h3 + p{
+    color:rgb(157, 255, 0);
+}
+h2 ~ p{
+    color: rgb(255, 0, 0);
+}
+textarea ~ button{
+    color: rgb(17, 31, 231);
+}
+ul >li{
+    color: rgb(63, 205, 63);
+}
+table tr{
+    color: firebrick;
+}
+table tr:hover{
+    color: rgb(19, 152, 241);
+}
+H2:hover{
+    color: greenyellow;
+}
+ul li:active{
+    color: orangered;
+}
+ul li:hover{
+    color: whitesmoke;
+}
+h1:active{
+    color: fuchsia;
+}

@@ -1,0 +1,33 @@
+/* using ELEMENT */
+body {
+  background-color:rgb(17, 11, 11);
+}
+/* using class */
+.aclass{
+    color:chartreuse;
+}
+/* using id */
+#bye{
+    color: coral;
+}
+#clay{
+    color: rgb(255, 255, 255);
+}
+h1{
+    color: rgb(228, 186, 19);
+}
+h2{
+    color: rgb(5, 141, 0);
+}
+h6{
+    color: rgb(119, 0, 255);
+}
+.cly {
+    color: rgb(231, 18, 196);
+}
+p{
+    color: skyblue;
+}
+ol{
+    color: rgb(255, 0, 0);
+}

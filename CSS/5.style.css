@@ -1,0 +1,41 @@
+body{
+    height: max-content;
+    
+    background-color: rgba(13, 116, 219,);
+    
+    /* background: url("/images/dhoni.jpg"); */
+    background: url("https://media.gettyimages.com/photos/surfer-in-black-wet-suit-walking-into-turbulent-waters-carrying-picture-id1131069857?s=2048x2048");
+    /* background-size: contain; */
+   /* background: url("/images/sudhar\ ls.jpg"); */
+    /* background-repeat:no-repeat ; */
+    /* font-family: "Audiowide", sans-serif; */
+    font-family: "Sofia", sans-serif;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 3em;
+}
+h1{
+    color:rgb(255, 0, 0)
+}
+p{
+    color: #6d3202;;
+}
+h2{
+    color: rgb(17, 67, 233);
+}
+p[id=form]{
+color: rgb(78, 8, 51);
+}
+textarea[id=form]{
+    color: rgb(161, 65, 26);
+}
+table{
+    background: rgba(135, 231, 9, 0.829);
+    float: inline-end;
+}
+.bgm{
+    background-size: cover ;
+    background-color: rgb(221, 21, 121);
+   background: url("/images/sudhar\ ls.jpg");
+        background-repeat: repeat;
+    }

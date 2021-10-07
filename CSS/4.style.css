@@ -1,0 +1,23 @@
+/* assinging class without . */
+h1[id=t]{
+    color: crimson;
+}
+p[class$=a]{
+    color: rgb(211, 174, 71);
+}
+h1[id^=b]{
+    color: chartreuse;
+}
+
+img[src$=".jpg"]{
+    border: 10px solid rgb(36, 32, 32);  
+}  
+li[class*=item]{
+    color: blue;
+}
+li[class|=itemlist]{
+    background-color: black;
+}
+a[id*=e]{
+    color: yellow;
+}

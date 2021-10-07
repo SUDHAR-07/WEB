@@ -1,0 +1,126 @@
+body{
+    /* font-family: copperplate,papyrus,fantasy; */
+    background: linear-gradient(to bottom,rgb(60,255,0),rgba(60,255,0,0));
+/* font-style: italic; */
+font-weight: bold;
+font-variant: normal;
+text-align: justify;
+font-style: normal;
+
+}
+
+#fonts{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-weight: bolder;
+    /* background: rgb(70, 69, 69); */
+}
+p{
+    border: 0.1cm dotted red;
+    text-align: justify;
+    text-transform: capitalize;
+    /* transform: rotateY(20deg) ; */
+    background:oldlace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Courier New', Courier, monospace; */
+    color: rgb(117, 117, 5);
+    font-variant: small-caps;
+      font-style: italic;
+}
+#family{
+    height: 20cm;
+    width:20cm ;
+    margin-left: auto;
+    display:block;
+    margin-right: auto;
+    /* float: right; */
+/* align-items: center; */
+}
+#fam{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.3pc;
+    font-variant: small-caps;
+    font-style: italic;
+    /* font-display: ; */
+    font-family: copperplate,papyrus,fantasy;
+    border: double;
+}
+h2{
+    font-family: cursive,"brush script MT";
+    background-color: black;
+    color: gold;
+    font-weight: 500;
+    border: dashed;
+    /* float: left; */
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: gold;
+    border: double;
+    /* float: left; */
+}
+ol{
+    background: rgb(255, 163, 163);
+    /* float: left; */
+    display: auto;
+}
+#top{
+    background-color: darkred;
+ color: rgb(224, 161, 115);
+ float: right;
+}
+img[src="/images/ALL-FONT-PROPERTIES.png"]{
+    border: 10px solid rgb(137, 0, 228);  
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* display: none; */
+    padding: 2cm;
+    /* float: left; */
+    /* background-position: center; */
+} 
+img[src="/images/font-size 2.png"]{
+    height: 15cm;
+    /* margin-left: auto;
+    margin-right: auto;
+    display: block; */
+    /* margin-left: 10cm; */
+    border: 10px double red;
+    padding: 1cm 1cm 1cm 1cm;
+    /* float: right; */
+}
+h3{
+    background-color: rgb(173, 199, 255);
+}
+/* #size:link{
+color: mintcream;
+}
+#size:visited{
+    color: saddlebrown;
+} */
+span{
+color: red;
+font-size: 30px;
+    font-style: oblique;
+}
+/* #image{ */
+    /* float: right; */
+/* } */
+#Pic1{
+ /* float: right; */
+ float: inline-end;
+ border: 1px 0px
+ 3px 0px yellow;
+ /* display: block; */
+}
+#Pic2{
+    float: inherit;
+    /* display: block; */
+}
+#W{
+    float: left;
+}

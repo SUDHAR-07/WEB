@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(31, 29, 30);
+    color: fuchsia;
+    font-family: 'Qahiri', sans-serif;
+    font-size: 4em;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-decoration: overline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px red;
+    /* text-align: center; */
+}
+li{
+    text-align: left;
+    text-decoration: underline;
+}
+p{
+    text-transform: capitalize;
+    text-indent: 5mm;
+    letter-spacing: 0.4mm;
+}
+h2{
+ color: gold;
+ text-shadow: 2px 2px rgb(251, 255, 0);
+}
+img{
+    /* height: 100em; */
+    margin-left: auto;
+    display:block;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+
+}

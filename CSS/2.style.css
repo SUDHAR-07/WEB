@@ -1,0 +1,47 @@
+body{
+    background-color: #ecffef;
+}
+h2:hover {
+    color: rgb(226, 5, 5);
+}
+ul{
+    color: rgb(74, 21, 221);
+}
+menu{
+    color: rgb(255, 174, 0);
+}
+li:first-child{
+    color:rgb(255, 153, 0) ;
+}
+li:last-child{
+    color: rgb(52, 219, 19);
+}
+li:nth-child(2){
+    color: rgb(31, 28, 207);
+}
+/* below command will make whole list element hover to pink */
+li:hover{
+    color: rgb(236, 19, 182);
+ }
+li:first-child:hover{
+    color: wheat;
+}
+li:last-child:hover{
+    color: sienna;
+}
+li:nth-child(2):hover{
+    color: tomato;
+}
+td:only-child{
+    color: tomato;
+}
+#google:link {
+    color: rgb(219, 17, 17);
+}
+#google:visited {
+    color: rgb(255, 145, 0);
+}
+p:active{
+    color: springgreen;
+
+}

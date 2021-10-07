@@ -1,0 +1,64 @@
+body {
+  background-color: rgba(0, 0, 200, 0.2);
+}
+#flex {
+  display: flex;
+  margin: 10px;
+  height: 900px;
+  margin: 10px;
+  border: solid blueviolet 10px;
+  background-color: rgb(0, 132, 255);
+  flex-direction: row;
+  /* flex-wrap: wrap-reverse; */
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.flex-item {
+  /* background-color: brown; */
+  color: rgb(37, 12, 0);
+  font-size: 25px;
+  font-style: oblique;
+  text-transform: capitalize;
+  text-align: center;
+  border: rgb(0, 0, 0) double 10px;
+  /* width: 70px; */
+  margin: 10px;
+  height: 800px;
+  overflow: auto;
+}
+h1 {
+  background-color: black;
+  padding: 5px;
+  color: chartreuse;
+}
+header {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 3px;
+  margin: 15px;
+  color: rgb(100, 102, 0);
+}
+span {
+  float: left;
+  width: 0.7em;
+  font-size: 500%;
+  line-height: 80%;
+  display: inherit;
+  text-transform: capitalize;
+}
+li{
+    text-align: left;
+    text-decoration: underline;
+}
+footer {
+    background-color: mediumspringgreen;
+    text-align: center;
+    padding: 3px;
+    margin: 5px;
+    
+  }
+  #copy{
+      
+    background-color: mediumspringgreen;
+    color: rgb(232, 255, 255);
+  }

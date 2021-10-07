@@ -1,0 +1,239 @@
+#head{
+    /* padding: 0; */
+    margin: 5px;
+}
+
+#first{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+ 
+}
+li.f{
+    float: left;
+}
+li.f a{
+    display: inline-block;
+    color: mintcream;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.f a:hover{
+    background-color: #111;
+}
+
+.active{
+    background-color: crimson;
+}
+
+
+/* li a:visited{
+    color: rgb(255, 220, 24);
+}
+ li a:active{
+    color: crimson;
+}  */
+span{
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    line-height: 80%;
+    display: inherit;
+}
+header{
+
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 3px;
+    margin: 15px;
+    color: rgb(251, 255, 0);
+}
+footer{
+    background-color: mediumspringgreen;
+    text-align: center;
+    padding: 3px;
+    margin: 15px;
+    color: azure;
+}
+#set-1{
+    padding: 10px;
+    height: 400px;
+    float: right;
+}
+#set-2{
+    /* display: inline-block; */
+    padding: 10px;
+    height: 300px;
+    float: left;
+}
+.D1{
+    float: left;
+    padding: 15px;
+background: red;
+}
+.D2{
+    float: left;
+    padding: 15px;
+    background: yellow;
+}
+.D3{
+    float: left;
+    padding: 15px;
+    background: green;
+}
+#section-1{
+    font-size: 1.5em;
+height: 750px;
+width: auto;
+padding: inherit;
+background: rgb(221, 226, 189);
+font-style: oblique;
+    display: block;
+    border: maroon 5px solid;
+    /* overflow: hidden; */
+    overflow: scroll;
+}
+.div1{
+    float: left;
+    padding: 10px;
+    border: 3px solid #73AD21;
+}
+.div2{
+    padding: 10px;
+    border: 3px solid red;
+    /* clear: both; */
+}
+.div3{
+    float: left;
+    padding: 10px;
+    border: 3px solid #73AD21;
+}
+.div4{
+    padding: 10px;
+    border: 3px solid red;
+    clear: left;
+}
+#section-clear{
+    margin-top: 20px;
+    font-size: 1.1em;
+height: 850px;
+width: auto;
+padding: inherit;
+background: rgb(143, 200, 207);
+font-style: oblique;
+    display: block;
+    border: maroon 5px solid;
+    overflow: scroll;
+
+}
+#clear{
+    float: right;
+    height: 400px;
+    padding: 15px;
+    margin: 15px;
+    display: block;
+    overflow: scroll;
+    /* clear: both; */
+}
+#section-over{
+    background-color: rgb(230, 174, 118);
+    margin-top: inherit;
+    padding: 20px;
+    border: 5px rgb(255, 72, 0) dotted;
+    overflow-y: scroll;
+    overflow-x: initial;
+    font-size: 1em;
+    color: rgb(58, 30, 3);
+}
+#im{
+    float: right;
+    height: 450px;
+}
+img{
+    float: right;
+    height: 300px;
+    padding: 15px;
+    margin: 15px;
+    display: block;
+}
+#overflow{
+    
+    list-style-type: circle;
+    }
+/* li.over{
+    background-color: red;
+}     */
+div.ex1 {
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: scroll;
+    
+  }
+  
+  div.ex2 {
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+    /* float: right; */
+  }
+  
+  div.ex3 {
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: auto;
+  }
+  
+  div.ex4 {
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: visible;
+  }
+/* .link{
+    padding: 15px;
+    color: rgb(255, 0, 0);
+    background-color: black;
+
+    text-align: center;
+
+}   */
+ #section-display {
+     overflow: auto;
+     background-color: yellow;
+     margin: inherit;
+     padding: 20px;
+     border: darkred 15px dashed;
+ }
+#block{
+    display: block;
+    background-color: crimson;
+    border: 1px solid;
+    clear: right;
+
+}
+#inline{
+    display: inline;
+    background-color: crimson;
+    border: 1px solid;
+}
+#head1{
+    margin: 10px;
+    padding: 50px;
+}
+img.thala{
+    /* display: none; */
+    /* visibility: hidden; */
+    /* display: block; */
+}
+li{
+display: inline;
+}
+/* h1{
+    float: left;
+} */

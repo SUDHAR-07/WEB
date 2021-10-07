@@ -1,0 +1,109 @@
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: skyblue;
+}
+.header,.footer {
+  background-color: rgb(17, 21, 61);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  /* float: left; */
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: darkblue solid 2px;
+  width: 200px;
+  background-color: #00d9ff;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: rgb(0, 26, 255);
+  color: white;
+}
+#float{
+  font-size: 1.5em;
+  height: 750px;
+  width: auto;
+  padding: 20px;
+  background: rgb(213, 192, 233);
+  font-style: oblique;
+      display: block;
+      border: rgb(0, 41, 128) 5px solid;
+      /* margin: 20px; */
+      /* overflow: hidden; */
+      overflow: auto;
+}
+#list{
+  /* padding-top: 120px; */
+ margin-top: 50px;
+}
+#col{
+  padding: 30px;
+  /* float: right; */
+  font-size: 1em;
+  clear: right;
+  display: inline-start;
+  margin-left: 200px;
+}
+#flow{
+  float: right;
+  font-size: 1.2em;
+}
+ol{
+  background-color: springgreen;
+  /* float: left; */
+}
+
+ #flex {
+  display: flex;
+  margin: 10px;
+  height: 300px;
+
+  background-color: blanchedalmond;
+  flex-direction: row;
+   flex-wrap: wrap-reverse; 
+  justify-content: center;
+  align-items: center;
+  animation: example 4s ease-in-out 100ms infinite alternate-reverse;
+}
+.flex-item {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  text-align: center;
+
+  width: 70px;
+  line-height: 50px;
+  margin: 10px;
+  /* animation: example1 4s ease-in-out 100ms infinite alternate-reverse; */
+
+} 
+/* #item{
+  order: 1;
+}  */
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+@keyframes example1 {
+  75%  {background-color:red; left:0px; top:0px;}
+  50% {background-color:yellow; left:200px; top:0px;}
+  25%  {background-color:blue; left:200px; top:200px;}
+  0%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
