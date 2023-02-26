@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share your Google Sheets</title>
+</head>
+<body>
+    <table class="output"></table>
+    <script>
+        const base = 'https://docs.google.com/spreadsheets/d/1t2W2JkmhHdxrcydGi7qOwH9szdciKjEEpfyIHlNal1o/gviz/tq?';
+        const output = document.querySelector('.output');
+        const query = encodeURIComponent('Select A,B,C,D');
+            console.log(query);
+        const url = base + '&tq=' + query;
+        fetch(url)
+        .then(res => res.text())
+        .then(rep =>{
+            // console.log(rep);
+            const data = JSON.parse(rep.substr(47).slice(0,-2));
+            const row = document.createElement('tr');
+            // console.log(query);
+            output.append(row);
+            data.table.cols.forEach((heading)=>{
+                // console.log(heading);    
+                const cell = document.createElement('td');
+                // cell.textContent = heading.id;
+                cell.textContent = heading.label;
+                row.append(cell);
+            })
+            // output.append(row);
+            data.table.rows.forEach((main)=>{
+                // console.log(main.c);    
+                const container = document.createElement('tr');
+                output.append(container);
+                main.c.forEach((ele)=>{
+                    // console.log(ele.v);
+                    let cell = document.createElement('td');
+                    cell.textContent = ele.v;
+                    container.append(cell);
+                })
+            })
+            // console.log(data);
+        })
+    </script>
+</body>
+</html>
